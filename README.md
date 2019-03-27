@@ -1,12 +1,23 @@
 # aek-pcb
 an open source drop in pcb replacement for the AEK/AEKII
-probable features:
+### probable features:
+
 -qmk powered
+
 -usb type c
+
 -mx and alps support
+
 -stm32F3 onboard chip;
+
 -NKRO support
-possible other features:
+
+
+### possible other features:
+
 -optional rotary encoder in place of the top right button
+
 -a beeper
+
 -rgb led indicators for caps/num/scroll locks.
+
