@@ -8,7 +8,7 @@ an open source drop in pcb replacement for the AEK/AEKII
 
 -mx and alps support
 
--atmega32u4 onboard chip (possibly stm32f303)
+-stm32f303 onboard chip (possibly atmega32u4)
 
 -NKRO support
 
