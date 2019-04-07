@@ -8,7 +8,7 @@ an open source drop in pcb replacement for the AEK/AEKII
 
 -mx and alps support
 
--stm32f303 onboard chip (possibly atmega32u4)
+-stm32f303 onboard chip (possibly at90usb)
 
 -NKRO support
 
@@ -19,4 +19,8 @@ an open source drop in pcb replacement for the AEK/AEKII
 
 -a beeper
 
--rgb led indicators for caps/num/scroll locks.
+-rgb led indicators for caps/num/scroll locks
+
+-built in usb hub for passthrough
+
+-smk monterey switch support
