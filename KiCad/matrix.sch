@@ -334,17 +334,6 @@ F 3 "" H 7700 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW51
-U 1 1 5CCE3105
-P 8300 1900
-F 0 "SW51" H 8300 2185 50  0000 C CNN
-F 1 "SW_Push" H 8300 2094 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8300 2100 50  0001 C CNN
-F 3 "" H 8300 2100 50  0001 C CNN
-	1    8300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW52
 U 1 1 5CCE310C
 P 9200 1900
@@ -576,17 +565,6 @@ F 3 "" H 7850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW73
-U 1 1 5CCE319F
-P 8500 2300
-F 0 "SW73" H 8500 2585 50  0000 C CNN
-F 1 "SW_Push" H 8500 2494 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8500 2500 50  0001 C CNN
-F 3 "" H 8500 2500 50  0001 C CNN
-	1    8500 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW74
 U 1 1 5CCE31A6
 P 9200 2300
@@ -807,17 +785,6 @@ F 3 "" H 7600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW94
-U 1 1 5CCE3232
-P 8250 2700
-F 0 "SW94" H 8250 2985 50  0000 C CNN
-F 1 "SW_Push" H 8250 2894 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8250 2900 50  0001 C CNN
-F 3 "" H 8250 2900 50  0001 C CNN
-	1    8250 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW95
 U 1 1 5CCE3239
 P 5700 6650
@@ -991,17 +958,6 @@ F 1 "SW_Push" H 1250 3294 50  0000 C CNN
 F 2 "Keebio-Parts:Hybrid_PCB_100H" H 1250 3300 50  0001 C CNN
 F 3 "" H 1250 3300 50  0001 C CNN
 	1    1250 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW111
-U 1 1 5CCE32A9
-P 8150 3100
-F 0 "SW111" H 8150 3385 50  0000 C CNN
-F 1 "SW_Push" H 8150 3294 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8150 3300 50  0001 C CNN
-F 3 "" H 8150 3300 50  0001 C CNN
-	1    8150 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1764,17 +1720,6 @@ F 3 "~" H 7700 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D D35
-U 1 1 5CCE3493
-P 8300 1950
-F 0 "D35" H 8300 1734 50  0000 C CNN
-F 1 "D" H 8300 1825 50  0000 C CNN
-F 2 "OPL_Discrete_Semiconductor:SOD-123" H 8300 1950 50  0001 C CNN
-F 3 "~" H 8300 1950 50  0001 C CNN
-	1    8300 1950
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:D D49
 U 1 1 5CCE349A
 P 4350 2350
@@ -1926,28 +1871,6 @@ F 1 "D" H 1150 2225 50  0000 C CNN
 F 2 "OPL_Discrete_Semiconductor:SOD-123" H 1150 2350 50  0001 C CNN
 F 3 "~" H 1150 2350 50  0001 C CNN
 	1    1150 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D57
-U 1 1 5CCE34FC
-P 8500 2350
-F 0 "D57" H 8500 2134 50  0000 C CNN
-F 1 "D" H 8500 2225 50  0000 C CNN
-F 2 "OPL_Discrete_Semiconductor:SOD-123" H 8500 2350 50  0001 C CNN
-F 3 "~" H 8500 2350 50  0001 C CNN
-	1    8500 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D78
-U 1 1 5CCE3503
-P 8250 2750
-F 0 "D78" H 8250 2534 50  0000 C CNN
-F 1 "D" H 8250 2625 50  0000 C CNN
-F 2 "OPL_Discrete_Semiconductor:SOD-123" H 8250 2750 50  0001 C CNN
-F 3 "~" H 8250 2750 50  0001 C CNN
-	1    8250 2750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2223,17 +2146,6 @@ F 1 "D" H 2100 3025 50  0000 C CNN
 F 2 "OPL_Discrete_Semiconductor:SOD-123" H 2100 3150 50  0001 C CNN
 F 3 "~" H 2100 3150 50  0001 C CNN
 	1    2100 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D95
-U 1 1 5CCE35B9
-P 8150 3150
-F 0 "D95" H 8150 2934 50  0000 C CNN
-F 1 "D" H 8150 3025 50  0000 C CNN
-F 2 "OPL_Discrete_Semiconductor:SOD-123" H 8150 3150 50  0001 C CNN
-F 3 "~" H 8150 3150 50  0001 C CNN
-	1    8150 3150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2648,8 +2560,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 1900 7550 1950
 Wire Wire Line
-	8100 1900 8150 1950
-Wire Wire Line
 	9000 1900 9050 1950
 Wire Wire Line
 	9500 1900 9550 1950
@@ -2692,8 +2602,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 2300 7700 2350
 Wire Wire Line
-	8300 2300 8350 2350
-Wire Wire Line
 	9000 2300 9050 2350
 Wire Wire Line
 	9500 2300 9550 2350
@@ -2715,8 +2623,6 @@ Wire Wire Line
 	6000 6650 6050 6700
 Wire Wire Line
 	5500 6650 5550 6700
-Wire Wire Line
-	8050 2700 8100 2750
 Wire Wire Line
 	7400 2700 7450 2750
 Wire Wire Line
@@ -2767,8 +2673,6 @@ Wire Wire Line
 	6400 3100 6450 3150
 Wire Wire Line
 	6900 3100 6950 3150
-Wire Wire Line
-	7950 3100 8000 3150
 Wire Wire Line
 	9500 3100 9550 3150
 Wire Wire Line
@@ -3032,12 +2936,8 @@ Wire Wire Line
 Wire Wire Line
 	9350 2000 9850 2000
 Wire Wire Line
-	8450 1950 8450 2000
-Wire Wire Line
 	7850 1950 7850 2000
 Connection ~ 7850 2000
-Wire Wire Line
-	7850 2000 8450 2000
 Wire Wire Line
 	7350 1950 7350 2000
 Connection ~ 7350 2000
@@ -3131,12 +3031,8 @@ Wire Wire Line
 Wire Wire Line
 	9350 2400 9850 2400
 Wire Wire Line
-	8650 2350 8650 2400
-Wire Wire Line
 	8000 2350 8000 2400
 Connection ~ 8000 2400
-Wire Wire Line
-	8000 2400 8650 2400
 Wire Wire Line
 	7500 2350 7500 2400
 Connection ~ 7500 2400
@@ -3264,10 +3160,6 @@ Connection ~ 7750 2800
 Wire Wire Line
 	7750 2800 7250 2800
 Wire Wire Line
-	8400 2750 8400 2800
-Wire Wire Line
-	8400 2800 7750 2800
-Wire Wire Line
 	5850 6700 5850 6750
 Wire Wire Line
 	6350 6700 6350 6750
@@ -3340,10 +3232,6 @@ Wire Wire Line
 Connection ~ 7250 3200
 Wire Wire Line
 	7250 3200 6750 3200
-Wire Wire Line
-	8300 3150 8300 3200
-Wire Wire Line
-	8300 3200 7250 3200
 Wire Wire Line
 	9850 3150 9850 3200
 Wire Wire Line
@@ -3608,18 +3496,6 @@ Connection ~ 7550 2300
 Wire Wire Line
 	8050 2300 7900 1900
 Wire Wire Line
-	8050 2300 8450 2700
-Connection ~ 8050 2300
-Wire Wire Line
-	8450 2700 8350 3100
-Connection ~ 8450 2700
-Wire Wire Line
-	8350 3100 8700 3500
-Connection ~ 8350 3100
-Connection ~ 8700 3500
-Wire Wire Line
-	8500 1900 8700 2300
-Wire Wire Line
 	3000 1150 3000 1200
 Wire Wire Line
 	3500 1200 3500 1150
@@ -3666,17 +3542,8 @@ Wire Wire Line
 	9350 3650 9350 3600
 Connection ~ 8650 3650
 Connection ~ 9350 3600
-Wire Wire Line
-	8300 3200 9850 3200
-Connection ~ 8300 3200
 Connection ~ 5850 6750
-Wire Wire Line
-	9350 2400 8650 2400
 Connection ~ 9350 2400
-Connection ~ 8650 2400
-Wire Wire Line
-	8450 2000 9350 2000
-Connection ~ 8450 2000
 Connection ~ 9350 2000
 Wire Wire Line
 	1900 1900 2500 1200
@@ -3757,22 +3624,6 @@ Wire Wire Line
 	5900 1900 6400 1200
 Connection ~ 5900 1900
 Connection ~ 6400 1200
-Wire Wire Line
-	6900 1900 7200 1200
-Connection ~ 6900 1900
-Connection ~ 7200 1200
-Wire Wire Line
-	7400 1900 7700 1200
-Connection ~ 7400 1900
-Connection ~ 7700 1200
-Wire Wire Line
-	7900 1900 8200 1200
-Connection ~ 7900 1900
-Connection ~ 8200 1200
-Wire Wire Line
-	8500 1900 8700 1200
-Connection ~ 8500 1900
-Connection ~ 8700 1200
 Wire Wire Line
 	9400 1900 9400 1200
 Connection ~ 9400 1900
@@ -3874,30 +3725,26 @@ Text GLabel 6400 1150 1    50   Input ~ 0
 COL9
 Text GLabel 3900 1900 1    50   Input ~ 0
 COL5
-Text GLabel 6400 1900 1    50   Input ~ 0
-COL10
 Text GLabel 7200 1150 1    50   Input ~ 0
-COL11
+COL10
 Text GLabel 7700 1150 1    50   Input ~ 0
-COL12
+COL11
 Text GLabel 8200 1150 1    50   Input ~ 0
-COL13
+COL12
 Text GLabel 8700 1150 1    50   Input ~ 0
-COL14
+COL13
 Text GLabel 9400 1150 1    50   Input ~ 0
-COL15
+COL14
 Text GLabel 9900 1150 1    50   Input ~ 0
-COL16
+COL15
 Text GLabel 10400 1150 1    50   Input ~ 0
-COL17
-Text GLabel 5900 5850 1    50   Input ~ 0
-COL18
+COL16
 Text GLabel 6400 5850 1    50   Input ~ 0
-COL19
+COL18
 Text GLabel 6900 5850 1    50   Input ~ 0
-COL20
+COL19
 Text GLabel 7400 5100 1    50   Input ~ 0
-COL21
+COL20
 Text GLabel 900  1350 0    50   Input ~ 0
 ROW0
 Text GLabel 900  2000 0    50   Input ~ 0
@@ -3965,9 +3812,6 @@ Connection ~ 10350 2400
 Wire Wire Line
 	11000 4050 11000 2800
 Wire Wire Line
-	11000 2800 8400 2800
-Connection ~ 8400 2800
-Wire Wire Line
 	9850 3200 10950 3200
 Wire Wire Line
 	10950 3200 10950 4100
@@ -4013,4 +3857,66 @@ Wire Wire Line
 	5350 4150 5350 7550
 Wire Wire Line
 	5350 7550 6150 7550
+Wire Wire Line
+	7850 2000 9350 2000
+Wire Wire Line
+	8000 2400 9350 2400
+Wire Wire Line
+	6400 1900 7200 1200
+Connection ~ 6400 1900
+Connection ~ 7200 1200
+Wire Wire Line
+	6900 1900 7700 1200
+Connection ~ 6900 1900
+Connection ~ 7700 1200
+Wire Wire Line
+	7400 1900 8200 1200
+Connection ~ 7400 1900
+Connection ~ 8200 1200
+Wire Wire Line
+	7900 1900 8700 1200
+Connection ~ 7900 1900
+Connection ~ 8700 1200
+Text GLabel 5900 5850 1    50   Input ~ 0
+COL17
+Wire Wire Line
+	7750 2800 11000 2800
+Connection ~ 8050 2300
+Wire Wire Line
+	8050 2300 8350 3100
+Connection ~ 8700 3500
+Wire Wire Line
+	8350 3100 8700 3500
+Wire Wire Line
+	8300 3200 9850 3200
+Wire Wire Line
+	8300 3200 7250 3200
+Connection ~ 8300 3200
+Wire Wire Line
+	8300 3150 8300 3200
+Wire Wire Line
+	7950 3100 8000 3150
+$Comp
+L Device:D D95
+U 1 1 5CCE35B9
+P 8150 3150
+F 0 "D95" H 8150 2934 50  0000 C CNN
+F 1 "D" H 8150 3025 50  0000 C CNN
+F 2 "OPL_Discrete_Semiconductor:SOD-123" H 8150 3150 50  0001 C CNN
+F 3 "~" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	-1   0    0    1   
+$EndComp
+Connection ~ 8350 3100
+$Comp
+L Switch:SW_Push SW111
+U 1 1 5CCE32A9
+P 8150 3100
+F 0 "SW111" H 8150 3385 50  0000 C CNN
+F 1 "SW_Push" H 8150 3294 50  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H" H 8150 3300 50  0001 C CNN
+F 3 "" H 8150 3300 50  0001 C CNN
+	1    8150 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
