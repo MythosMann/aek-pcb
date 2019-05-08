@@ -14,19 +14,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2200 1350 3    60   Input ~ 0
+Text GLabel 2300 1550 2    60   Input ~ 0
 D2+
-Text GLabel 2300 1350 3    60   Input ~ 0
+Text GLabel 2300 1450 2    60   Input ~ 0
 D2-
 $Comp
 L power:GND #PWR0106
 U 1 1 5CCB2CDD
-P 2100 1350
-F 0 "#PWR0106" H 2100 1100 50  0001 C CNN
-F 1 "GND" H 2100 1200 50  0001 C CNN
-F 2 "" H 2100 1350 50  0000 C CNN
-F 3 "" H 2100 1350 50  0000 C CNN
-	1    2100 1350
+P 2300 1650
+F 0 "#PWR0106" H 2300 1400 50  0001 C CNN
+F 1 "GND" H 2300 1500 50  0001 C CNN
+F 2 "" H 2300 1650 50  0000 C CNN
+F 3 "" H 2300 1650 50  0000 C CNN
+	1    2300 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -199,11 +199,11 @@ L power:GND #PWR0113
 U 1 1 5CCB2D7B
 P 1300 2900
 F 0 "#PWR0113" H 1300 2650 50  0001 C CNN
-F 1 "GND" H 1300 2750 50  0000 C CNN
+F 1 "GND" H 1300 2750 50  0001 C CNN
 F 2 "" H 1300 2900 50  0000 C CNN
 F 3 "" H 1300 2900 50  0000 C CNN
 	1    1300 2900
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 2900 1400 2900
@@ -303,9 +303,9 @@ Text GLabel 3450 2800 2    60   Input ~ 0
 D0+
 Text GLabel 3450 2900 2    60   Input ~ 0
 D0-
-Text GLabel 3700 800  1    60   Input ~ 0
+Text GLabel 3700 1100 2    60   Input ~ 0
 D0-
-Text GLabel 3550 800  1    60   Input ~ 0
+Text GLabel 3700 950  2    60   Input ~ 0
 D0+
 Wire Wire Line
 	4100 3000 4250 3000
@@ -345,43 +345,43 @@ F 3 "" H 3550 2200 50  0001 C CNN
 $EndComp
 Text Notes 3100 700  0    50   ~ 0
 USB IN
-Text Notes 1250 1100 0    50   ~ 0
+Text Notes 1000 950  0    50   ~ 0
 USB OUT
 $Comp
 L Connector:Conn_01x05_Female J3
 U 1 1 5CD6E7B2
-P 1500 1150
-F 0 "J3" V 1440 862 50  0000 R CNN
-F 1 "USB_1" V 1349 862 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1500 1150 50  0001 C CNN
-F 3 "~" H 1500 1150 50  0001 C CNN
-	1    1500 1150
-	0    -1   -1   0   
+P 1250 1400
+F 0 "J3" H 1190 1112 50  0000 R CNN
+F 1 "USB_1" H 1099 1112 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1250 1400 50  0001 C CNN
+F 3 "~" H 1250 1400 50  0001 C CNN
+	1    1250 1400
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x05_Female J2
 U 1 1 5CD6E836
-P 2300 1150
-F 0 "J2" V 2240 862 50  0000 R CNN
-F 1 "USB_2" V 2149 862 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2300 1150 50  0001 C CNN
-F 3 "~" H 2300 1150 50  0001 C CNN
-	1    2300 1150
-	0    -1   -1   0   
+P 2100 1450
+F 0 "J2" H 2040 1162 50  0000 R CNN
+F 1 "USB_2" H 1949 1162 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2100 1450 50  0001 C CNN
+F 3 "~" H 2100 1450 50  0001 C CNN
+	1    2100 1450
+	-1   0    0    1   
 $EndComp
-Text GLabel 1400 1350 3    60   Input ~ 0
+Text GLabel 1450 1500 2    60   Input ~ 0
 D1+
-Text GLabel 1500 1350 3    60   Input ~ 0
+Text GLabel 1450 1400 2    60   Input ~ 0
 D1-
 $Comp
 L power:GND #PWR0103
 U 1 1 5CD71606
-P 1300 1350
-F 0 "#PWR0103" H 1300 1100 50  0001 C CNN
-F 1 "GND" H 1300 1200 50  0001 C CNN
-F 2 "" H 1300 1350 50  0000 C CNN
-F 3 "" H 1300 1350 50  0000 C CNN
-	1    1300 1350
+P 1450 1600
+F 0 "#PWR0103" H 1450 1350 50  0001 C CNN
+F 1 "GND" H 1450 1450 50  0001 C CNN
+F 2 "" H 1450 1600 50  0000 C CNN
+F 3 "" H 1450 1600 50  0000 C CNN
+	1    1450 1600
 	1    0    0    -1  
 $EndComp
 Text GLabel 1950 3500 0    50   Input ~ 0
@@ -566,31 +566,29 @@ Text GLabel 1950 3300 0    50   Input ~ 0
 D3-
 Text GLabel 1950 3400 0    50   Input ~ 0
 D3+
-Text GLabel 1700 1350 3    50   Input ~ 0
+Text GLabel 1450 1200 2    50   Input ~ 0
 SHEILD
-Text GLabel 2500 1350 3    50   Input ~ 0
+Text GLabel 2300 1250 2    50   Input ~ 0
 SHEILD
 Text GLabel 3350 2000 0    50   Input ~ 0
 SHEILD
-Text GLabel 1600 1350 3    50   Input ~ 0
+Text GLabel 1450 1300 2    50   Input ~ 0
 VCC1
-Text GLabel 2400 1350 3    50   Input ~ 0
+Text GLabel 2300 1350 2    50   Input ~ 0
 VCC2
-Text GLabel 4000 4550 3    50   Input ~ 0
+Text GLabel 3900 4250 2    50   Input ~ 0
 VCC1
-Text GLabel 4150 4550 1    50   Input ~ 0
+Text GLabel 3900 4350 2    50   Input ~ 0
 VCC2
-Text GLabel 4300 4550 3    50   Input ~ 0
+Text GLabel 3900 4450 2    50   Input ~ 0
 VCC3
-Wire Wire Line
-	3850 4550 4300 4550
-Text GLabel 3450 2000 1    50   Input ~ 0
+Text GLabel 3450 1900 0    50   Input ~ 0
 5VIN
 Text GLabel 4100 3000 1    50   Input ~ 0
 5VIN
-Text GLabel 1200 4100 3    50   Input ~ 0
+Text GLabel 1200 4100 0    50   Input ~ 0
 5VIN
-Text GLabel 3850 4550 1    50   Input ~ 0
+Text GLabel 3800 4250 0    50   Input ~ 0
 5VIN
 Wire Wire Line
 	1450 3400 1250 3400
@@ -659,14 +657,20 @@ Wire Wire Line
 	3450 1650 3650 1650
 Wire Wire Line
 	3550 950  3550 2000
-Wire Wire Line
-	3550 950  3550 800 
 Connection ~ 3550 950 
-Wire Wire Line
-	3700 800  3700 1650
 Wire Wire Line
 	3650 1650 3650 2000
 Connection ~ 3650 1650
 Wire Wire Line
 	3650 1650 3700 1650
+Wire Wire Line
+	3800 4250 3900 4250
+Wire Wire Line
+	3900 4250 3900 4450
+Wire Wire Line
+	3450 2000 3450 1900
+Wire Wire Line
+	3700 1650 3700 1100
+Wire Wire Line
+	3550 950  3700 950 
 $EndSCHEMATC
