@@ -138,10 +138,6 @@ F 3 "" H 1600 1000 50  0001 C CNN
 	1    1600 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 1350 0    50   Input ~ 0
-SPEAKER
-Text GLabel 10250 3850 2    50   Input ~ 0
-SPEAKER
 $Comp
 L power:GND #PWR01
 U 1 1 5CCE8B06
@@ -204,10 +200,6 @@ Text GLabel 10250 2750 2    50   Input ~ 0
 SCLLED
 Text GLabel 10250 2450 2    50   Input ~ 0
 SCK
-Text GLabel 10250 4250 2    50   Input ~ 0
-SDA
-Text GLabel 10250 4150 2    50   Input ~ 0
-SCL
 $Comp
 L power:VCC #PWR013
 U 1 1 5CB97A58
@@ -219,50 +211,6 @@ F 3 "" H 9650 1150 50  0001 C CNN
 	1    9650 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 10250 4850 2    50   Input ~ 0
-COL0
-Text GLabel 10250 4750 2    50   Input ~ 0
-COL1
-Text GLabel 10250 4650 2    50   Input ~ 0
-COL2
-Text GLabel 10250 4550 2    50   Input ~ 0
-COL3
-Text GLabel 10250 4450 2    50   Input ~ 0
-COL4
-Text GLabel 10250 4350 2    50   Input ~ 0
-COL5
-Text GLabel 10250 3950 2    50   Input ~ 0
-COL6
-Text GLabel 10250 3750 2    50   Input ~ 0
-COL7
-Text GLabel 10250 3650 2    50   Input ~ 0
-COL8
-Text GLabel 10250 3550 2    50   Input ~ 0
-COL9
-Text GLabel 10250 3450 2    50   Input ~ 0
-COL10
-Text GLabel 10250 3350 2    50   Input ~ 0
-COL11
-Text GLabel 10250 3250 2    50   Input ~ 0
-COL12
-Text GLabel 10250 2350 2    50   Input ~ 0
-COL13
-Text GLabel 10250 3050 2    50   Input ~ 0
-COL14
-Text GLabel 10250 2150 2    50   Input ~ 0
-COL15
-Text GLabel 10250 2050 2    50   Input ~ 0
-COL16
-Text GLabel 10250 1950 2    50   Input ~ 0
-COL17
-Text GLabel 10250 1850 2    50   Input ~ 0
-COL18
-Text GLabel 10250 1750 2    50   Input ~ 0
-COL19
-Text GLabel 10250 1650 2    50   Input ~ 0
-COL20
-Text GLabel 10250 1550 2    50   Input ~ 0
-COL21
 NoConn ~ 9050 2050
 $Comp
 L Device:C_Small C3
@@ -284,24 +232,8 @@ F 1 "GND" H 8750 2750 50  0001 C CNN
 F 2 "" H 8750 2900 50  0001 C CNN
 F 3 "" H 8750 2900 50  0001 C CNN
 	1    8750 2900
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Text GLabel 9050 4150 0    50   Input ~ 0
-ENCODERB
-Text GLabel 9050 4250 0    50   Input ~ 0
-ENCODERA
-Text GLabel 9050 4850 0    50   Input ~ 0
-ROW0
-Text GLabel 9050 4750 0    50   Input ~ 0
-ROW1
-Text GLabel 9050 4650 0    50   Input ~ 0
-ROW2
-Text GLabel 9050 4550 0    50   Input ~ 0
-ROW3
-Text GLabel 9050 4450 0    50   Input ~ 0
-ROW4
-Text GLabel 9050 4350 0    50   Input ~ 0
-ROW5
 $Comp
 L Device:C_Small C5
 U 1 1 5CB8F780
@@ -351,14 +283,39 @@ MOSI
 Text GLabel 10250 2650 2    50   Input ~ 0
 MISO
 $Sheet
-S 600  6500 1200 1150
+S 650  5850 1300 1700
 U 5CCAC01B
 F0 "Key Matrix" 50
 F1 "matrix.sch" 50
-F2 "COL13" I R 1800 7100 50 
-F3 "COL14" I R 1800 7200 50 
-F4 "COL15" I R 1800 7300 50 
-F5 "COL16" I R 1800 7400 50 
+F2 "COL13" I R 1950 6400 50 
+F3 "COL14" I R 1950 6500 50 
+F4 "COL15" I R 1950 6600 50 
+F5 "COL16" I R 1950 6700 50 
+F6 "COL5" I L 650 7000 50 
+F7 "COL4" I L 650 6900 50 
+F8 "COL0" I L 650 6500 50 
+F9 "ROW0" I L 650 5900 50 
+F10 "ROW1" I L 650 6000 50 
+F11 "ROW2" I L 650 6100 50 
+F12 "ROW3" I L 650 6200 50 
+F13 "ROW4" I L 650 6300 50 
+F14 "ROW5" I L 650 6400 50 
+F15 "COL1" I L 650 6600 50 
+F16 "COL2" I L 650 6700 50 
+F17 "COL3" I L 650 6800 50 
+F18 "COL6" I L 650 7100 50 
+F19 "COL7" I L 650 7200 50 
+F20 "COL8" I R 1950 5900 50 
+F21 "COL9" I R 1950 6000 50 
+F22 "COL10" I R 1950 6100 50 
+F23 "COL11" I R 1950 6200 50 
+F24 "COL12" I R 1950 6300 50 
+F25 "COL17" I R 1950 6800 50 
+F26 "COL18" I R 1950 6900 50 
+F27 "COL19" I R 1950 7000 50 
+F28 "COL20" I R 1950 7100 50 
+F29 "ENCODERA" I R 1950 7200 50 
+F30 "ENCODERB" I R 1950 7300 50 
 $EndSheet
 $Comp
 L power:GND #PWR0102
@@ -439,11 +396,6 @@ Wire Wire Line
 Connection ~ 5750 800 
 Wire Wire Line
 	5750 800  6350 800 
-Wire Wire Line
-	6350 1400 5750 1400
-Connection ~ 5750 1400
-Wire Wire Line
-	5750 1400 5150 1400
 $Comp
 L power:VCC #PWR015
 U 1 1 5CCF8940
@@ -467,8 +419,7 @@ F 3 "" H 5150 1400 50  0001 C CNN
 	1    5150 1400
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 1400
-Text GLabel 10250 1450 2    50   Input ~ 0
+Text GLabel 10250 4350 2    50   Input ~ 0
 RGB
 Text GLabel 4550 1100 0    50   Input ~ 0
 RGB
@@ -579,8 +530,6 @@ Wire Wire Line
 	9050 2450 8750 2450
 Wire Wire Line
 	9050 2750 9050 2900
-Wire Wire Line
-	8850 2900 8750 2900
 NoConn ~ 9050 3950
 NoConn ~ 9050 3850
 NoConn ~ 9050 3750
@@ -590,11 +539,11 @@ NoConn ~ 9050 3450
 NoConn ~ 9050 3350
 NoConn ~ 9050 3250
 $Comp
-L Device:Crystal_GND24 Y1
+L Device:Crystal Y1
 U 1 1 5CB5709B
 P 10150 5800
-F 0 "Y1" H 10275 6000 50  0000 L CNN
-F 1 "16MHz" H 10275 5925 50  0000 L CNN
+F 0 "Y1" H 10150 5950 50  0000 L CNN
+F 1 "16MHz" H 10050 5650 50  0000 L CNN
 F 2 "Crystal:Crystal_HC49-U_Horizontal" H 10150 5800 50  0001 C CNN
 F 3 "" H 10150 5800 50  0001 C CNN
 	1    10150 5800
@@ -645,9 +594,6 @@ Wire Wire Line
 	9000 5950 9100 5950
 Wire Wire Line
 	9000 5700 9000 5650
-Connection ~ 9000 5650
-Wire Wire Line
-	9000 5650 9100 5650
 Text Notes 7350 7500 0    50   ~ 0
 aek-pcb
 Text Notes 8100 7650 0    50   ~ 0
@@ -1415,8 +1361,6 @@ F 3 "" H 800 4450 50  0001 C CNN
 	1    800  4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  4450 800  4450
 $Comp
 L power:+5V #PWR06
 U 1 1 5CDC084F
@@ -1428,4 +1372,153 @@ F 3 "" H 9550 1150 50  0001 C CNN
 	1    9550 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CD33D5F
+P 9550 5150
+F 0 "#PWR0101" H 9550 4900 50  0001 C CNN
+F 1 "GND" H 9555 4977 50  0001 C CNN
+F 2 "" H 9550 5150 50  0001 C CNN
+F 3 "" H 9550 5150 50  0001 C CNN
+	1    9550 5150
+	1    0    0    -1  
+$EndComp
+Text Label 650  5900 2    50   ~ 0
+ROW0
+Text Label 650  6000 2    50   ~ 0
+ROW1
+Text Label 650  6100 2    50   ~ 0
+ROW2
+Text Label 650  6200 2    50   ~ 0
+ROW3
+Text Label 650  6300 2    50   ~ 0
+ROW4
+Text Label 650  6400 2    50   ~ 0
+ROW5
+Text Label 650  6500 2    50   ~ 0
+COL0
+Text Label 650  6600 2    50   ~ 0
+COL1
+Text Label 650  6700 2    50   ~ 0
+COL2
+Text Label 650  6800 2    50   ~ 0
+COL3
+Text Label 650  6900 2    50   ~ 0
+COL4
+Text Label 650  7000 2    50   ~ 0
+COL5
+Text Label 650  7100 2    50   ~ 0
+COL6
+Text Label 650  7200 2    50   ~ 0
+COL7
+Text Label 1950 5900 0    50   ~ 0
+COL8
+Text Label 1950 6000 0    50   ~ 0
+COL9
+Text Label 1950 6100 0    50   ~ 0
+COL10
+Text Label 1950 6200 0    50   ~ 0
+COL11
+Text Label 1950 6300 0    50   ~ 0
+COL12
+Text Label 1950 6400 0    50   ~ 0
+COL13
+Text Label 1950 6500 0    50   ~ 0
+COL14
+Text Label 1950 6600 0    50   ~ 0
+COL15
+Text Label 1950 6700 0    50   ~ 0
+COL16
+Text Label 1950 6800 0    50   ~ 0
+COL17
+Text Label 1950 6900 0    50   ~ 0
+COL18
+Text Label 1950 7000 0    50   ~ 0
+COL19
+Text Label 1950 7100 0    50   ~ 0
+COL20
+Text Label 1950 7200 0    50   ~ 0
+ENCODERA
+Text Label 1950 7300 0    50   ~ 0
+ENCODERB
+Text Label 9050 4350 2    50   ~ 0
+ROW0
+Text Label 9050 4450 2    50   ~ 0
+ROW1
+Text Label 9050 4550 2    50   ~ 0
+ROW2
+Text Label 9050 4650 2    50   ~ 0
+ROW3
+Text Label 9050 4750 2    50   ~ 0
+ROW4
+Text Label 9050 4850 2    50   ~ 0
+ROW5
+Text Label 9050 4150 2    50   ~ 0
+ENCODERA
+Text Label 9050 4250 2    50   ~ 0
+ENCODERB
+Text GLabel 1000 1350 0    50   Input ~ 0
+SPEAKER
+Text GLabel 10250 3850 2    50   Input ~ 0
+SPEAKER
+Wire Wire Line
+	8750 2900 8850 2900
+Wire Wire Line
+	950  4450 800  4450
+Wire Wire Line
+	9000 5650 9100 5650
+Connection ~ 9000 5650
+Wire Wire Line
+	5150 1400 5750 1400
+Connection ~ 5150 1400
+Connection ~ 5750 1400
+Wire Wire Line
+	5750 1400 6350 1400
+NoConn ~ 6650 1100
+Text GLabel 10250 4150 2    50   Input ~ 0
+SCL
+Text GLabel 10250 4250 2    50   Input ~ 0
+SDA
+Text Label 10250 1450 0    50   ~ 0
+COL0
+Text Label 10250 1550 0    50   ~ 0
+COL1
+Text Label 10250 1650 0    50   ~ 0
+COL2
+Text Label 10250 1750 0    50   ~ 0
+COL3
+Text Label 10250 1850 0    50   ~ 0
+COL4
+Text Label 10250 1950 0    50   ~ 0
+COL5
+Text Label 10250 2050 0    50   ~ 0
+COL6
+Text Label 10250 2150 0    50   ~ 0
+COL7
+Text Label 10250 2350 0    50   ~ 0
+COL8
+Text Label 10250 3050 0    50   ~ 0
+COL9
+Text Label 10250 3250 0    50   ~ 0
+COL10
+Text Label 10250 3350 0    50   ~ 0
+COL11
+Text Label 10250 3450 0    50   ~ 0
+COL12
+Text Label 10250 3550 0    50   ~ 0
+COL13
+Text Label 10250 3650 0    50   ~ 0
+COL14
+Text Label 10250 3750 0    50   ~ 0
+COL15
+Text Label 10250 3950 0    50   ~ 0
+COL16
+Text Label 10250 4450 0    50   ~ 0
+COL17
+Text Label 10250 4550 0    50   ~ 0
+COL18
+Text Label 10250 4650 0    50   ~ 0
+COL19
+Text Label 10250 4750 0    50   ~ 0
+COL20
 $EndSCHEMATC

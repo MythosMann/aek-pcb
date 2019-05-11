@@ -260,10 +260,6 @@ F 3 "" H 9950 1250 50  0001 C CNN
 	1    9950 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 1350 0    50   Input ~ 0
-ENCODERB
-Text GLabel 10500 1150 0    50   Input ~ 0
-ENCODERA
 Text Notes 7350 7500 0    50   ~ 0
 aek-pcb
 Text Notes 8100 7650 0    50   ~ 0
@@ -3887,4 +3883,8 @@ Wire Wire Line
 Wire Wire Line
 	11500 1150 11500 1350
 Connection ~ 11500 1350
+Text HLabel 10500 1150 0    50   Input ~ 0
+ENCODERA
+Text HLabel 10500 1350 0    50   Input ~ 0
+ENCODERB
 $EndSCHEMATC
